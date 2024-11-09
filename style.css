@@ -83,33 +83,41 @@ header img{
   color: #ffffff;
   height: fit-content;
   min-height: 350px;
-  padding: 50px;
+  padding: 30px 100px 30px 100px;
   justify-content: space-between;
   z-index: 100;
   border-radius: 16px;
   transition: 150ms;
 }
 .card:hover{
-    background-color: #3f4c5c;
-    transform: scale(1.03);
-    transition: 150ms;
+  background-color: #3f4c5c;
+  transform: scale(1.03);
+  transition: 150ms;
 }
 .card p{
   color: #ffffff;
   background: none;
-  max-width: 70%;
+  max-width: 100%;
 }
 .card a{
   color: #ffffff;
 }
 
+.divider {
+  background: none;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
 .container{
   display: flex;
-  margin-bottom: 50px;
+  width: 100%;
+  margin: 0px 0px 50px 0px;
 }
 
 .item{
-  margin: 50px 30px 0px 30px;
+  margin: 50px 0px 0px 0px;
   padding: 0;
   display: flex;
   background: none;
@@ -124,9 +132,9 @@ header img{
 }
 
 aside {
-    background: none;
-    float: right;
-    transition: 150ms;
+  background: none;
+  float: right;
+  transition: 150ms;
 }
 
 /* ---------- CONTENU ---------- */
@@ -145,7 +153,7 @@ aside {
 .titre{
     z-index: 3;
     background: none;
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 800;
     height: fit-content;
     margin-top: 30px;
@@ -179,24 +187,27 @@ p{
 }
 
 img{
-    background: none;
-    margin: 20px 10px 20px 10px;
-    padding: 10px;
-    border-radius: 12px;
-    transition: 150ms;
+  background: none;
+  margin: 20px 10px 20px 10px;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 150ms;
 }
 
-.button{ 
+button{ 
   background: #ffffff;
+  border: none;
+  font-size: 28px;
   padding: 20px 30px 20px 30px;
   border-radius: 300px;
   transition: 150ms;
 }
-.button:hover{
+button:hover{
   background-color: #fc7c1a;
   transition: 150ms;
+  cursor: pointer;
 }
-.button img{
+button img{
   margin: 0;
   padding: 0;
   height: 15px;
